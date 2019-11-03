@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 75px;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ir-arriba {
+    display: none;
+    padding: 10px;
+    background-color: dodgerblue;
+    font-size: 20px;
+    color: floralwhite;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+nav {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .075);
+    z-index: 1000;
+}
+.logo {
+    width: 5rem;
+    box-sizing: content-box;
+    padding: 0px 8px;
+}
+.logo img {
+    display: block;
+    width: 100%;
+    height: center;
+}
+nav ul {
+    height: center;
+    list-style: none;
+    display: flex;
+    font-size: 1.3rem;
+}
+nav ul li {
+    padding: 0 1rem;
+    line-height: 5rem;
+    transition: background-color .5s;
+}
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, .075);
+}
+.nav-rigth {
+    border-right: 1px solid rgba(0, 0, 0, .075);
+}
+.nav-rigth ul li:nth-child(1){
+    border-left: 1px solid rgba(0, 0, 0, .075);
+}
+.nav-rigth ul li:last-child {
+    border-right: none;
+}
+.nav-rigth i {
+    margin-right: 1rem;
+}
+.nav-rigth i:first-child {
+    margin-right: 0;
+}
+.barra {
+    background-color: black;
+    width: 100%;
+    height: 10px;
+}
+.contenedor img {
+    width: 700px;
+}
+.contenedor {
+    width: 700px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.contenedor ul {
+    list-style: none;
+    width: 2800px;
+    display: flex;
+    animation: slide 20s infinite alternate;
+}
+@keyframes slide {
+    0% {margin-left: 0px;}
+    20% {margin-left: 0px;}
+    25% {margin-left: -700px;}
+    45% {margin-left: -700px;}
+    50% {margin-left: -1400px;}
+    70% {margin-left: -1400px;}
+    75% {margin-left: -2100px;}
+    100% {margin-left: -2100px;}
+}
+.txt {
+    text-align: center;
+}
+.marcas {
+    width: 600px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.marcas ul {
+    list-style: none;
+    width: 600px;
+    display: flex;
+}
+.ren-1 {
+    width: 970px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+.tenis-venta {
+    float: left;
+    margin-left: 20px;
+}
+.btn {
+    border: none;
+    border-radius: 25%;
+    outline: none;
+}
+.btn:hover {
+    background-color: dimgrey;
+}
+.banner {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.txtBanner {
+    padding: 25px;
+    font-size: 15px;
+    color: blanchedalmond;
+}
+.txtTermino {
+    margin-left: 140px;
+    padding: 25px;
+    font-size: 15px;
+    float: right;
+    color: blanchedalmond;
+}
+.divBanner {
+    float: left;
+    margin-left: 0px;
+}
